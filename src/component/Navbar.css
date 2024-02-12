@@ -1,0 +1,41 @@
+.Menu{
+   
+
+    height: 150px;
+    display: block;
+    width: 137px;
+    text-align: left;
+    padding: 12px;
+    margin: 0px;
+}
+.MobileMenu{
+    height: 150px;
+    display: block;
+    width: 137px;
+    text-align: left;
+    position: absolute;
+    /* left: 0;  */
+    padding: 12px;
+    margin: 0px;
+    transition: left 2s;
+    left: -150px;
+
+}
+.MobileMenu>li{
+    background-color: aqua;
+    display :block;
+    height: 46px;
+    text-align: justify;
+    cursor: pointer;
+    margine-bottom:9px;
+
+}
+
+
+.Menu>li{
+    background-color: aqua;
+    display :block;
+    height: 46px;
+    text-align: justify;
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+
+.men-btn{
+    position: absolute;
+    right: 0;
+      
+    
+}
+.men-btn>span{
+    display: block;
+    border: 1px solid black;
+    width: 20px;
+    margin: 5px;
+   
+}
+.menu{
+
+}
+.menu>li{
+    background-color: aqua;
+}
